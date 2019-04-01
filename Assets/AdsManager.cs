@@ -49,7 +49,8 @@ public class AdsManager : MonoBehaviour {
 		#else
 		string adUnitId = "unexpected_platform";
 		#endif
-
+		//https://developers.google.com/admob/unity/interstitial
+		
 		// Initialize an InterstitialAd.
 		this.interstitial = new InterstitialAd(adUnitId);
 
